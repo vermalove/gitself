@@ -3,3 +3,7 @@ cron:
   - name: "task1"
     url: "/scheduled"
     schedule: "* * * * *"
+
+os: windows
+files:
+  - source: \index.html
